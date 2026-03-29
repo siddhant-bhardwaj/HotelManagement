@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ui.RatingController"
+      styleClass="card">
+
+    <Label text="Rate Your Experience"/>
+
+    <HBox spacing="5" alignment="CENTER">
+        <Label fx:id="star1" text="☆" styleClass="star" onMouseClicked="#handleStar"/>
+        <Label fx:id="star2" text="☆" styleClass="star" onMouseClicked="#handleStar"/>
+        <Label fx:id="star3" text="☆" styleClass="star" onMouseClicked="#handleStar"/>
+        <Label fx:id="star4" text="☆" styleClass="star" onMouseClicked="#handleStar"/>
+        <Label fx:id="star5" text="☆" styleClass="star" onMouseClicked="#handleStar"/>
+    </HBox>
+
+    <TextArea fx:id="feedbackArea" promptText="Enter feedback..." prefRowCount="3"/>
+
+    <Button text="Submit" onAction="#handleSubmit"/>
+
+</VBox>

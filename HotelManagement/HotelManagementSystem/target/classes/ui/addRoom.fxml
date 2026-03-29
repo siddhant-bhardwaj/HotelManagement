@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ui.AddRoomController">
+<VBox spacing="15" alignment="CENTER" styleClass="card">
+
+    <padding>
+            <Insets top="20" left="20"/>
+        </padding>
+
+    <Label text="Add Room"/>
+
+    <TextField fx:id="roomField" promptText="Room Number"/>
+    
+    <ComboBox fx:id="typeBox"/>
+
+    <Button text="Add Room" onAction="#handleAddRoom"/>
+
+</VBox>
+</StackPane>

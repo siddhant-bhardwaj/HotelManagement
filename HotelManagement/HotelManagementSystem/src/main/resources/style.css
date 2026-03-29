@@ -1,0 +1,159 @@
+/* Background */
+
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f5f7fa, #e4ecf3);
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+/* Title */
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 35px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #cfd8dc;
+    -fx-border-width: 1.5;
+    -fx-padding: 5 10;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(gaussian, rgba(52,152,219,0.3), 5, 0, 0, 1);
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 35px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #cfd8dc;
+    -fx-padding: 3;
+}
+
+/* Button */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* Container card style */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-padding: 25;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 4);
+}
+
+/* Tabs */
+.tab-pane {
+    -fx-background-color: #ffffff;
+}
+
+.tab {
+    -fx-background-color: #dfe6e9;
+    -fx-padding: 5 15;
+}
+
+.tab:selected {
+    -fx-background-color: #74b9ff;
+    -fx-text-base-color: white;
+}
+
+
+
+/* Labels */
+.label {
+    -fx-font-size: 13px;
+}
+
+/* Text fields */
+.text-field, .combo-box, .date-picker {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+/* Room boxes (important 🔥) */
+.room-box {
+    -fx-background-radius: 10;
+    
+    -fx-padding: 20 0 0 20;
+    -fx-border-radius: 10;
+    -fx-border-color: #465590;
+}
+
+.rooms-container {
+    -fx-padding: 20 0 0 20; /* top right bottom left */
+}
+
+
+/* Status colors */
+.available {
+    -fx-background-color: #55efc4;
+}
+
+.available:hover{
+    -fx-background-color: #95f0d6;
+    -cursor: hand;
+}
+
+.booked {
+    -fx-background-color: #ff7675;
+}
+
+.booked:hover{
+    -fx-background-color: #fcaaaa;
+    -cursor: hand;
+}
+
+.maintenance{
+    -fx-background-color: #fdcb6e;
+}
+
+.maintenance:hover{
+    -fx-background-color: #ffe6b8;
+    -cursor: hand;
+}
+
+/* Dialog */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+}
+
+.stack-pane {
+    -fx-padding: 40;
+}
+
+
+.star {
+    -fx-font-size: 26px;
+    -fx-text-fill: #bdc3c7;
+    -fx-cursor: hand;
+}
+
+.star:hover {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+.star.selected {
+    -fx-text-fill: gold;
+}

@@ -1,0 +1,8 @@
+model\StandardRoom$1.class
+ui\AddRoomController.class
+ui\HotelApp.class
+model\StandardRoom.class
+service\HotelService.class
+model\Customer.class
+model\Room.class
+model\RoomType.class
